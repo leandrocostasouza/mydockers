@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/leandrocostasouza/docker-kodi.png?label=ready&title=Ready)](https://waffle.io/leandrocostasouza/docker-kodi)
 Docker-Kodi 
 =====================
 
