@@ -1,4 +1,9 @@
-# docker-kodi
+Docker-Kodi 
+=====================
+
+[![Build Status](https://travis-ci.org/leandrocostasouza/docker-kodi.svg?branch=master)](https://travis-ci.org/leandrocostasouza/docker-kodi) 
+
+![](http://kodi.tv/wp-content/themes/paradise/Paradise/images/logo.png)
 
 
 Kodi ppa:team-xbmc docker
