@@ -1,11 +1,9 @@
-[![Stories in Ready](https://badge.waffle.io/leandrocostasouza/docker-kodi.png?label=ready&title=Ready)](https://waffle.io/leandrocostasouza/docker-kodi)
+![](http://kodi.tv/wp-content/themes/paradise/Paradise/images/logo.png)
+
 Docker-Kodi 
 =====================
 
-[![Build Status](https://travis-ci.org/leandrocostasouza/docker-kodi.svg?branch=master)](https://travis-ci.org/leandrocostasouza/docker-kodi) 
-
-![](http://kodi.tv/wp-content/themes/paradise/Paradise/images/logo.png)
-
+[![Stories in Ready](https://badge.waffle.io/leandrocostasouza/docker-kodi.png?label=ready&title=Ready)](https://waffle.io/leandrocostasouza/docker-kodi) [![Stories in Progress](https://badge.waffle.io/leandrocostasouza/docker-kodi.png?label=In%20Progress&title=In%20Progress)](https://waffle.io/leandrocostasouza/docker-kodi) [![Build Status](https://travis-ci.org/leandrocostasouza/docker-kodi.svg?branch=master)](https://travis-ci.org/leandrocostasouza/docker-kodi) 
 
 Kodi ppa:team-xbmc docker
 
