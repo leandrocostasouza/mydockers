@@ -1,4 +1,4 @@
-kodi_remo:
+kodi:
     image: leandrosouza/docker-kodi
     environment: 
        - DISPLAY=192.168.99.1:0
