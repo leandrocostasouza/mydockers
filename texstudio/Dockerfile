@@ -6,4 +6,6 @@ RUN apt-fast install -q -y  qt5-default qttools5-dev-tools libpoppler-qt5-1 libq
 
 RUN dpkg -i texstudio_2.10.8-5.1_amd64.deb
 
+RUN apt-fast clean
+
 CMD texstudio
