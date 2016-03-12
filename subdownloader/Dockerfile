@@ -12,4 +12,6 @@ RUN apt-get -f install -q -y  python-qt4 python-crypto python-kaa-metadata
 RUN apt-get clean
 RUN dpkg -i subdownloader_2.0.18-1_all.deb
 
+ENV QT_GRAPHICSSYSTEM=native
+
 CMD subdownloader
