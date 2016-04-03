@@ -16,4 +16,6 @@ RUN add-apt-repository ppa:lyx-devel/release
 RUN apt-get update 
 RUN apt-get install  -q -y lyx 
 
+ENV QT_X11_NO_MITSHM=1
+
 CMD lyx 
