@@ -1,4 +1,4 @@
-FROM harshjv/docker-texlive-2015
+FROM harshjv/texlive-2015
 
 RUN apt-get -f install -q -y libpoppler-qt4-4 libqt4-network libqt4-script libqt4-xml libqtcore4 libqtgui4 libqtwebkit4
 
