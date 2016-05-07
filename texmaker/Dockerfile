@@ -1,6 +1,8 @@
 FROM harshjv/texlive-2015
 MAINTAINER Leandro Souza <leandrocsfrb@gmail.com>
 
+WORKDIR /tmp
+
 ENV LANG en_US.UTF-8  
 ENV LANGUAGE en_US:en  
 ENV LC_ALL en_US.UTF-8 
