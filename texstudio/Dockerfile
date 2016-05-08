@@ -12,9 +12,11 @@ RUN apt-get update
 
 RUN apt-get -f install -q -y ghostscript axel
 
-RUN axel http://download.opensuse.org/repositories/home:/jsundermeyer/xUbuntu_14.04/amd64/texstudio_2.10.8-5.1_amd64.deb
-
 RUN apt-get install -q -y  qt5-default qttools5-dev-tools libpoppler-qt5-1 libqt5script5 libqt5svg5
+
+WORKDIR $HOME
+
+RUN axel http://download.opensuse.org/repositories/home:/jsundermeyer/xUbuntu_14.04/amd64/texstudio_2.10.8-5.1_amd64.deb
 
 RUN dpkg -i texstudio_2.10.8-5.1_amd64.deb
 
