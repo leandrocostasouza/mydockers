@@ -10,7 +10,7 @@ RUN sudo dpkg-reconfigure locales
 
 RUN apt-get update
 
-RUN apt-get install ghostscript
+RUN apt-get -f install -q -y ghostscript
 
 RUN apt-get -f install -q -y axel libpoppler-qt4-4 libqt4-network libqt4-script libqt4-xml libqtcore4 libqtgui4 libqtwebkit4
 
