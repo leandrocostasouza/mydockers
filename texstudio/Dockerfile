@@ -12,7 +12,7 @@ RUN apt-get update
 
 RUN apt-get -f install -q -y ghostscript axel
 
-%RUN apt-get install -q -y  qt5-default qttools5-dev-tools libpoppler-qt5-1 libqt5script5 libqt5svg5
+#RUN apt-get install -q -y  qt5-default qttools5-dev-tools libpoppler-qt5-1 libqt5script5 libqt5svg5
 RUN apt-get -f install -q -y axel libpoppler-qt4-4 libqt4-network libqt4-script libqt4-xml libqtcore4 libqtgui4 libqtwebkit4
 
 WORKDIR $HOME
