@@ -16,7 +16,7 @@ RUN apt-get -f install -q -y axel libpoppler-qt4-4 libqt4-network libqt4-script 
 
 WORKDIR $HOME
 
-RUN axel http://download.opensuse.org/repositories/home:/jsundermeyer/xUbuntu_14.04/amd64/texstudio-qt4_2.10.8_amd64.deb
+RUN axel http://download.opensuse.org/repositories/home:/jsundermeyer/xUbuntu_14.04/amd64/texstudio-qt4_2.10.10_amd64.deb
 
 RUN dpkg -i texstudio-qt4_2.10.8_amd64.deb
 
