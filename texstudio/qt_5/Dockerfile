@@ -16,9 +16,9 @@ RUN apt-get install -q -y  qt5-default qttools5-dev-tools libpoppler-qt5-1 libqt
 
 WORKDIR $HOME
 
-RUN axel http://download.opensuse.org/repositories/home:/jsundermeyer/xUbuntu_14.04/amd64/texstudio-qt4_2.10.8_amd64.deb
+RUN axel http://download.opensuse.org/repositories/home:/jsundermeyer/xUbuntu_14.04/amd64/texstudio_2.10.10-17.1_amd64.deb
 
-RUN dpkg -i texstudio-qt4_2.10.8_amd64.deb
+RUN dpkg -i texstudio_2.10.10-17.1_amd64.deb
 
 RUN apt-get clean
 
