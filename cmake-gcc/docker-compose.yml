@@ -1,0 +1,10 @@
+cmake-gcc:
+    image: leandrosouza/cmake-gcc
+    tty: true
+    stdin_open: true
+    volumes: 
+        ["/home/$USER:/home/$USER",
+        "/media:/media"]
+    user: $USER
+    working_dir: /home/$USER
+    entrypoint: /bin/bash
