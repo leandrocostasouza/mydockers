@@ -6,3 +6,4 @@ docker-compose
 
   wget https://raw.githubusercontent.com/leandrocostasouza/mydockers/master/smartgit/7_1_3/docker-compose.yml
   docker-compose up
+  
