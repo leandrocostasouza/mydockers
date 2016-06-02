@@ -1,0 +1,16 @@
+gitbook-editor:
+    image: leandrosouza/gitbook-editor
+    tty: true
+    stdin_open: true
+    volumes: 
+        ["/home/$USER:/home/$USER",
+        "/media:/media",
+        "/etc/group:/etc/group:ro",
+        "/etc/passwd:/etc/passwd:ro",
+        "/etc/shadow:/etc/shadow:ro",
+        "/etc/sudoers.d:/etc/sudoers.d:ro",
+        "/tmp/.X11-unix:/tmp/.X11-unix:rw"]
+    environment:
+        DISPLAY: 
+    user: $USER
+    working_dir: /home/$USER
