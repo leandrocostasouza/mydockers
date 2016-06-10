@@ -1,5 +1,7 @@
 #Pug
 
+http://jade-lang.com/reference/
+
 ## Sublime text builder
 
 create DockerPug.sublime-build file in 
