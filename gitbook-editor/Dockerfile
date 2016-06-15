@@ -15,7 +15,7 @@ RUN ./nodesource.sh
 
 RUN apt-get install -y nodejs
 RUN npm install gitbook-cli -g
-RUN mkdir temp
+RUN mkdir tempBook
 RUN cd tempBook
 RUN gitbook init
 RUN cd ..
