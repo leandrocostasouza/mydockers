@@ -7,9 +7,12 @@ ENV LC_ALL en_US.UTF-8
 
 RUN apt-get update
 
-RUN apt-get install -y curl wget
+RUN apt-get install -y wget
 
-RUN curl -sL https://deb.nodesource.com/setup_4.x | -E bash -
+RUN wget --output-document nodesource.sh https://deb.nodesource.com/setup_4.x
+RUN chmod +x nodesource.sh
+RUN ./nodesource.sh
+
 RUN apt-get install -y nodejs
 RUN npm install gitbook-cli -g
 RUN mkdir temp
