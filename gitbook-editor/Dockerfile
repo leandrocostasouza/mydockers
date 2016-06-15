@@ -8,11 +8,10 @@ ENV LC_ALL en_US.UTF-8
 RUN apt-get update
 
 #ebook-convert
-RUN apt-get install -y python
+RUN apt-get install -y wget python
 RUN wget -nv -O- https://raw.githubusercontent.com/kovidgoyal/calibre/master/setup/linux-installer.py | python -c "import sys; main=lambda:sys.stderr.write('Download failed\n'); exec(sys.stdin.read()); main()"
 
 #add nodejs
-RUN apt-get install -y wget
 RUN wget --output-document nodesource.sh https://deb.nodesource.com/setup_4.x
 RUN chmod +x nodesource.sh
 RUN ./nodesource.sh
