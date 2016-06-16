@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:14.04
 MAINTAINER Leandro Souza <leandrocsfrb@gmail.com>
 
 ENV LANG en_US.UTF-8  
@@ -27,7 +27,7 @@ RUN cd ..
 RUN rm -r tempBook
 
 #libs gitbook-editor
-RUN apt-get install -q -y libgtk2.0-0 libnotify4 libgconf-2-4 libnss3 libasound2
+RUN apt-get install -q -y libgtk2.0-0 libnotify4 libgconf-2-4 libnss3 
 
 #gitbook-editor
 RUN wget --output-document gitbook-editor-5.0.5-linux-x64.deb http://downloads.editor.gitbook.com/download/linux-64-bit
